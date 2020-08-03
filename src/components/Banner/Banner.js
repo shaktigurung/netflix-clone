@@ -32,7 +32,7 @@ function Banner() {
         backgroundSize: "cover",
         backgroundImage: `url(
                 "https://image.tmdb.org/t/p/original/${
-                  movie ? movie.backdrop_path : "null"
+                  movie ? movie.backdrop_path : ""
                 }"
             )`,
         backgroundPosition: "center center"
